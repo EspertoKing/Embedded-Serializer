@@ -1,8 +1,7 @@
-*.class
-*.log
 *.jar
-*.ser
-.classpath
+*.class
+*.exe
+*.jar
 .DS_Store
-.settings
-target/
+.DS_Store?
+._*
