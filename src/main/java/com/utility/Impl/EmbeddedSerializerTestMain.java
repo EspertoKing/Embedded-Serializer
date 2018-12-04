@@ -12,7 +12,7 @@ public class EmbeddedSerializerTestMain {
 
 		TestSerializerClass2 objTestIn = new TestSerializerClass2();
 		
-//		object.serialize(objTestIn, filename);
+		object.serialize(objTestIn, filename);
 		
 		TestSerializerClass2 objTestOut = new TestSerializerClass2();
 		TestSerializerClass2 objFinal = (TestSerializerClass2) object.deSerialize(objTestOut, filename);
